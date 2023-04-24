@@ -66,3 +66,57 @@ nav a:hover {
 .imgTopo{
     width:50% ;
 }
+:root{
+    --cor-mesa:rgb(12, 107, 145);
+   --face-dado:black;
+   --bola:rgb(187, 44, 216);
+}
+.mesa{
+  width:100%;
+  height: 200px;
+  background-color: var(--cor-mesa);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.face{
+    width:120px;
+    height: 120px;
+    background-color: var(--face-dado);
+}
+.bolinha{
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+    margin: 5px;
+}
+.face-um{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.face_dois{
+    height: 50%;
+}
+.face_dois_um{
+    display: flex;
+    justify-content: end;
+}
+.face_dois_dois{
+    display: flex;
+    align-items: end;
+    height: 100%;
+}
+.face_dois_tres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+    width: 210px;
+    
+    
+}
